@@ -1,13 +1,6 @@
-﻿using System;
-
-using Android.App;
-using Android.Content;
+﻿using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
-using Xamarin.Forms;
 
 
 namespace Keyboard.Droid
@@ -22,7 +15,7 @@ namespace Keyboard.Droid
 
  			base.OnCreate(bundle);
 
-			global::Xamarin.Forms.Forms.Init(this, bundle);
+			Xamarin.Forms.Forms.Init(this, bundle);
 
 			var metrics = Resources.DisplayMetrics;
 

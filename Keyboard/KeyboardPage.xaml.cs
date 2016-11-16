@@ -11,8 +11,10 @@ namespace Keyboard
 		public KeyboardPage()
 		{
 			InitializeComponent();
+			//this is necessary since the conde for screen size depends on the platform
 			IUIHelper hlp = DependencyService.Get<IUIHelper>();
 			screenheight = hlp.ReturnScreenHeight();
+
 			var EmojiCells = EmCat1.Children;
 			emoj_categ1.Text = "\uD83D\uDE00";
 			char hex1 = (char)int.Parse("D83DDE00".Substring(0, 4), System.Globalization.NumberStyles.HexNumber);

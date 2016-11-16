@@ -5,7 +5,6 @@ namespace Keyboard
 {
 	public interface IUIHelper
 	{
-		void HideKeyboard();
 		float ReturnScreenHeight();
 	}
 }

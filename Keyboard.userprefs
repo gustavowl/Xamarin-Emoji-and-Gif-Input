@@ -2,23 +2,35 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\KeyboardPage.xaml.cs" line="121" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Keyboard\KeyboardPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\EmojiButtonRenderer.cs">
     <Files>
       <File FileName="Droid\MainActivity.cs" Line="23" Column="1" />
       <File FileName="Keyboard\KeyboardPage.xaml" Line="58" Column="56" />
-      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="28" Column="5" />
-      <File FileName="Keyboard\IUIHelper.cs" Line="9" Column="8" />
-      <File FileName="Droid\UIHelper.cs" Line="25" Column="4" />
-      <File FileName="Droid\CustomFontEntryRenderer.cs" Line="71" Column="8" />
-      <File FileName="Keyboard\ChatEmojiEntry.cs" Line="8" Column="28" />
-      <File FileName="Droid\MyEntryRenderer.cs" Line="42" Column="28" />
+      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="129" Column="1" />
+      <File FileName="Droid\UIHelper.cs" Line="27" Column="4" />
+      <File FileName="Droid\ChatTextEntryRenderer.cs" Line="26" Column="1" />
+      <File FileName="Keyboard\ChatEmojiEntry.cs" Line="1" Column="29" />
+      <File FileName="Droid\ChatEmojiRenderer.cs" Line="20" Column="42" />
       <File FileName="Keyboard\ChatTextEntry.cs" Line="6" Column="28" />
-      <File FileName="Droid\EmojiButtonRenderer.cs" Line="22" Column="1" />
+      <File FileName="Droid\EmojiButtonRenderer.cs" Line="21" Column="7" />
+      <File FileName="Droid\CustomFontLabelRenderer.cs" Line="26" Column="6" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Keyboard" expanded="True">
+            <Node name="Keyboard" expanded="True">
+              <Node name="KeyboardPage.xaml" expanded="True" />
+            </Node>
+            <Node name="Keyboard.Droid" expanded="True">
+              <Node name="EmojiButtonRenderer.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Keyboard.Droid PreferredExecutionTarget="Android.Android" />
 </Properties>

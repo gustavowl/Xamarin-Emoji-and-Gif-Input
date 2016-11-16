@@ -20,11 +20,9 @@ namespace Keyboard.Droid
 					var font = Typeface.CreateFromAsset(Forms.Context.ApplicationContext.Assets, e.NewElement.FontFamily + ".ttf");
 					Control.Typeface = font;
 				}
-				catch (Exception ex)
+				catch (Exception excpt)
 				{
-					// An exception means that the custom font wasn't found.
-					// Typeface.CreateFromAsset throws an exception when it didn't find a matching font.
-					// When it isn't found we simply do nothing, meaning it reverts back to default.
+					//thrown when the requested font is not found
 				}
 			}
 		}
