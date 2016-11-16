@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard", "Keyboard\Keyboard.csproj", "{DED131F4-81A3-4196-B569-35133E58AD1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboard.Droid", "Droid\Keyboard.Droid.csproj", "{0A29A9BF-7AAE-4293-B6E3-B6E9BE1829DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DED131F4-81A3-4196-B569-35133E58AD1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DED131F4-81A3-4196-B569-35133E58AD1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DED131F4-81A3-4196-B569-35133E58AD1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DED131F4-81A3-4196-B569-35133E58AD1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A29A9BF-7AAE-4293-B6E3-B6E9BE1829DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A29A9BF-7AAE-4293-B6E3-B6E9BE1829DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A29A9BF-7AAE-4293-B6E3-B6E9BE1829DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A29A9BF-7AAE-4293-B6E3-B6E9BE1829DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

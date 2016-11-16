@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{0A29A9BF-7AAE-4293-B6E3-B6E9BE1829DE}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\KeyboardPage.xaml.cs" line="121" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Keyboard\KeyboardPage.xaml">
+    <Files>
+      <File FileName="Droid\MainActivity.cs" Line="23" Column="1" />
+      <File FileName="Keyboard\KeyboardPage.xaml" Line="58" Column="56" />
+      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="28" Column="5" />
+      <File FileName="Keyboard\IUIHelper.cs" Line="9" Column="8" />
+      <File FileName="Droid\UIHelper.cs" Line="25" Column="4" />
+      <File FileName="Droid\CustomFontEntryRenderer.cs" Line="71" Column="8" />
+      <File FileName="Keyboard\ChatEmojiEntry.cs" Line="8" Column="28" />
+      <File FileName="Droid\MyEntryRenderer.cs" Line="42" Column="28" />
+      <File FileName="Keyboard\ChatTextEntry.cs" Line="6" Column="28" />
+      <File FileName="Droid\EmojiButtonRenderer.cs" Line="22" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Keyboard.Droid PreferredExecutionTarget="Android.Android" />
+</Properties>
