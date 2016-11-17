@@ -10,8 +10,7 @@ C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Release\Xamarin.Form
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Release\Keyboard.App.xaml.g.cs
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Release\Keyboard.KeyboardPage.xaml.g.cs
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Release\Keyboard.dll
-C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Release\Keyboard.dll.mdb
-C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Release\Keyboard.dll.mdb
+C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Release\Keyboard.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Release\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Release\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Release\Keyboard.dll.mdb

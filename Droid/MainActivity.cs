@@ -22,6 +22,7 @@ namespace Keyboard.Droid
 			UIHelper helper = new UIHelper(Resources);
 
 			LoadApplication(new App());
+
 		}
 	}
 }

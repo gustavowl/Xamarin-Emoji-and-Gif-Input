@@ -6,5 +6,6 @@ namespace Keyboard
 	public interface IUIHelper
 	{
 		float ReturnScreenHeight();
+		void metodo(Label ent);
 	}
 }

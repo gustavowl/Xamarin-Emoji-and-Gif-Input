@@ -3,6 +3,9 @@
 	<StackLayout>
 		<ScrollView>
 			<StackLayout x:Name="scroll" >
+
+				<WebView x:Name="giphy" BackgroundColor="Red" />
+				
 				<Label x:Name="LaBela" Text="I should be empty" FontSize="72" MinimumHeightRequest="90" HeightRequest="90"
 						 VerticalTextAlignment="Center" >
 				    <Label.FontFamily>
@@ -53,6 +56,7 @@
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="*" />
 				<ColumnDefinition Width="auto" />
+				<ColumnDefinition Width="auto" />
 			</Grid.ColumnDefinitions>
 			<local:ChatTextEntry x:Name="input_text" Keyboard="Chat" TextChanged="Input_TextChanged" 
 					Grid.Row="0" Grid.Column="0" FontFamily="emojione" />
@@ -61,6 +65,7 @@
 			
 			<Button Text="TT" Grid.Row="0" Grid.Column="1" x:Name="emoji_button"
 				Clicked="ShowEmojisTable" />
+			<Button Text="Gif" Grid.Row="0" Grid.Column="2" x:Name="gif_button" Clicked="SearchGifs"/>
 		</Grid>
 		<StackLayout IsVisible="false" x:Name="emoji_table">
 			<ScrollView Orientation="Horizontal" >
@@ -94,7 +99,7 @@
 						<ColumnDefinition Width="*" />
 						<ColumnDefinition Width="*" />
 					</Grid.ColumnDefinitions>
-
+					<!--
 					<Button Grid.Row="0" Grid.Column="0" /> <Button Grid.Row="0" Grid.Column="1" />
 					<Button Grid.Row="0" Grid.Column="2" /> <Button Grid.Row="0" Grid.Column="3" />
 					<Button Grid.Row="0" Grid.Column="4" /> <Button Grid.Row="0" Grid.Column="5" />
@@ -154,10 +159,10 @@
 					<Button Grid.Row="11" Grid.Column="2" /> <Button Grid.Row="11" Grid.Column="3" />
 					<Button Grid.Row="11" Grid.Column="4" /> <Button Grid.Row="11" Grid.Column="5" />
 					<Button Grid.Row="11" Grid.Column="6" />
-
+					-->
 				</Grid>
 			</ScrollView>
-			<ScrollView x:Name="ScrollEmCat2" IsVisible="false">
+			<ScrollView x:Name="ScrollEmCat2" IsVisible="false"> 
 				<Grid x:Name="EmCat2">
 					<Grid.RowDefinitions>
 						<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
@@ -174,7 +179,7 @@
 						<ColumnDefinition Width="*" />
 						<ColumnDefinition Width="*" />
 					</Grid.ColumnDefinitions>
-
+					<!--
 					<Button Grid.Row="0" Grid.Column="0" /> <Button Grid.Row="0" Grid.Column="1" />
 					<Button Grid.Row="0" Grid.Column="2" /> <Button Grid.Row="0" Grid.Column="3" />
 					<Button Grid.Row="0" Grid.Column="4" /> <Button Grid.Row="0" Grid.Column="5" />
@@ -235,7 +240,7 @@
 					<Button Grid.Row="11" Grid.Column="4" /> <Button Grid.Row="11" Grid.Column="5" />
 					<Button Grid.Row="11" Grid.Column="6" />
 
-					<!--
+
 					<Button Grid.Row="12" Grid.Column="0" /> <Button Grid.Row="12" Grid.Column="1" />
 					<Button Grid.Row="12" Grid.Column="2" /> <Button Grid.Row="12" Grid.Column="3" />
 					<Button Grid.Row="12" Grid.Column="4" /> <Button Grid.Row="12" Grid.Column="5" />
@@ -359,9 +364,11 @@
 					<Button Grid.Row="36" Grid.Column="0" /> <Button Grid.Row="36" Grid.Column="1" />
 					<Button Grid.Row="36" Grid.Column="2" /> <Button Grid.Row="36" Grid.Column="3" />
 					<Button Grid.Row="36" Grid.Column="4" /> <Button Grid.Row="36" Grid.Column="5" />
-					<Button Grid.Row="36" Grid.Column="6" />-->
-				</Grid> 
+					<Button Grid.Row="36" Grid.Column="6" /> -->
+				</Grid>
 			</ScrollView>
 		</StackLayout>
+		<Label x:Name="test" PropertyChanged="teste_prop_changed" Text="Im here" />
+
 	</StackLayout>
 </ContentPage>

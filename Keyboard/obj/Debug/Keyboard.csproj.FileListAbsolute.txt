@@ -12,7 +12,8 @@ C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.App.x
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.KeyboardPage.xaml.g.cs
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.pdb
-C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.csprojResolveAssemblyReference.cache
+C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll.mdb
+C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll.mdb

@@ -48,6 +48,7 @@ C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\bin\Debug\mscorlib.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\bin\Debug\System.Core.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\bin\Debug\System.dll.mdb
+C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\bin\Debug\System.Json.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\bin\Debug\System.Net.Http.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
@@ -61,6 +62,7 @@ C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\obj\Debug\android\assets\ms
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\obj\Debug\android\assets\System.Core.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\obj\Debug\android\assets\System.Json.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb

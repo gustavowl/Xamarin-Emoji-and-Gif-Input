@@ -124,5 +124,33 @@ namespace Keyboard
 			input_emoji.CursorFocus = true;
 			input_emoji.FocusOnPosition = prev_focus + 2;
 		}
+
+		void SearchGifs(object sender, EventArgs e)
+		{
+			IUIHelper hlp = DependencyService.Get<IUIHelper>();
+			hlp.metodo(test);
+		}
+
+		void teste_prop_changed(object sender, System.ComponentModel.PropertyChangedEventArgs e)
+		{
+			if (e.PropertyName == "Text")
+			{
+				Label lb = (Label)sender;
+				if (lb.Text != null && lb.Text.Contains("/"))
+				{
+					if (lb.BackgroundColor == Color.Green)
+						lb.BackgroundColor = Color.Yellow;
+					else
+						lb.BackgroundColor = Color.Green;
+					string[] sources = lb.Text.Split('/');
+					Random r = new Random();
+					giphy.HeightRequest = 500;
+					giphy.WidthRequest = 500;
+					giphy.Source = "http://media2.giphy.com/media/" + sources[r.Next(0, sources.Length)] + "/giphy.gif";
+
+				}
+			}
+		}
+
 	}
 }
