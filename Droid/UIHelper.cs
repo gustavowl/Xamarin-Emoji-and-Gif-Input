@@ -43,14 +43,25 @@ namespace Keyboard.Droid
 			//List<string> toreturn = new List<string>();
 			string lbtext = "";
 
-			string id_str = "webp_size\": \"";
+			string id_str = "}}";
+
 			data = data.Substring(data.IndexOf("images\": {") + 10);
 			int fio = data.IndexOf(id_str);
-			int size = -1;
-			string temp_url;
-			int temp_size;
+			string image, larger_dim;
+
 			while (fio >= 0)
 			{
+				image = data.Substring(0, data.IndexOf(id_str) + id_str.Length);
+				data = data.Remove(0, data.IndexOf(id_str) + id_str.Length);
+				//detects which dimensions is the largest
+				if (GetDimension(image, true) > GetDimension(image, false))
+					larger_dim = "height";
+				else
+					larger_dim = "width";
+				image = image.Substring(image.IndexOf("fixed_" + larger_dim + "_downsampled"));
+				image = image.Substring(image.IndexOf("url\": \"") + 7);
+				lbtext += image.Substring(0, image.IndexOf('\"')) + '\t';
+				/*
 				if (fio < data.IndexOf("images\": {"))
 				{
 					if (fio < data.IndexOf('}'))
@@ -84,11 +95,10 @@ namespace Keyboard.Droid
 					else
 						data = "";
 				}
+				*/
 				fio = data.IndexOf(id_str);
 			}
 			lb.Text = lbtext;
-			// ParseAndDisplay (json);
-			//return toreturn;
 		}
 
 		// Gets weather data from the passed URL.
@@ -113,6 +123,22 @@ namespace Keyboard.Droid
 					return jsonDoc;
 				}
 			}
+		}
+
+		private int GetDimension(string imageInfo, bool height)
+		{
+			//height == true if to return height's dimension. False to return width's dimension
+			string dim;
+			if (height)
+				dim = "height\": \"";
+			else
+				dim = "width\": \"";
+			int length = imageInfo.IndexOf(dim) + dim.Length;
+			imageInfo = imageInfo.Substring(length);
+
+			//DELETE THIS
+			int toreturn = Convert.ToInt32(imageInfo.Substring(0, imageInfo.IndexOf('\"')));
+			return toreturn;
 		}
 	}
 }

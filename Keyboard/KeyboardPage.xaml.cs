@@ -147,7 +147,6 @@ namespace Keyboard
 					giphy.WidthRequest = 250;
 					giphy.HeightRequest = 250;
 					giphy.Source = sources[r.Next(0, sources.Length)];
-
 				}
 			}
 		}
