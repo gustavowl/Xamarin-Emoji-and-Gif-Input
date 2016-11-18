@@ -43,13 +43,47 @@ namespace Keyboard.Droid
 			//List<string> toreturn = new List<string>();
 			string lbtext = "";
 
-			string id_str = "\"id\": \"";
+			string id_str = "webp_size\": \"";
+			data = data.Substring(data.IndexOf("images\": {") + 10);
 			int fio = data.IndexOf(id_str);
+			int size = -1;
+			string temp_url;
+			int temp_size;
 			while (fio >= 0)
 			{
-				data = data.Substring(fio + id_str.Length);
-				//toreturn.Add(data.Substring(0, data.IndexOf('\"')));
-				lbtext += data.Substring(0, data.IndexOf('\"')) + '/';
+				if (fio < data.IndexOf("images\": {"))
+				{
+					if (fio < data.IndexOf('}'))
+					{
+						data = data.Substring(data.IndexOf("url\": \"") + 7);
+						if (size > -1)
+						{
+							temp_url = data.Substring(0, data.IndexOf('\"'));
+							data = data.Substring(data.IndexOf(id_str) + id_str.Length);
+							temp_size = Convert.ToInt32(data.Substring(0, data.IndexOf('\"')));
+							if (temp_size < size)
+							{
+								url = temp_url;
+								size = temp_size;
+							}
+						}
+						else {
+							url = data.Substring(0, data.IndexOf('\"'));
+							data = data.Substring(data.IndexOf(id_str) + id_str.Length);
+							size = Convert.ToInt32(data.Substring(0, data.IndexOf('\"')));
+						}
+					}
+					else
+						data = data.Substring(data.IndexOf('}') + 1);
+				}
+				else {
+					lbtext += url + "\t";
+					size = -1;
+					if (data.IndexOf("images\": {") >= 0)
+						data = data.Substring(data.IndexOf("images\": {") + 10);
+					else
+						data = "";
+				}
 				fio = data.IndexOf(id_str);
 			}
 			lb.Text = lbtext;

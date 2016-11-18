@@ -142,14 +142,20 @@ namespace Keyboard
 						lb.BackgroundColor = Color.Yellow;
 					else
 						lb.BackgroundColor = Color.Green;
-					string[] sources = lb.Text.Split('/');
+					string[] sources = lb.Text.Split('\t');
 					Random r = new Random();
-					giphy.HeightRequest = 500;
-					giphy.WidthRequest = 500;
-					giphy.Source = "http://media2.giphy.com/media/" + sources[r.Next(0, sources.Length)] + "/giphy.gif";
+					giphy.WidthRequest = 250;
+					giphy.HeightRequest = 250;
+					giphy.Source = sources[r.Next(0, sources.Length)];
 
 				}
 			}
+		}
+
+		void webviewfocused(object sender, EventArgs e)
+		{
+			input_text.Text += "_fcs";
+			giphy.Unfocus();
 		}
 
 	}
