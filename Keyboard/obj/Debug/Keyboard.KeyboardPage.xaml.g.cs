@@ -17,10 +17,10 @@ namespace Keyboard {
     public partial class KeyboardPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.StackLayout scroll;
+        private global::Xamarin.Forms.AbsoluteLayout rltv;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.WebView giphy;
+        private global::Xamarin.Forms.StackLayout scroll;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label LaBela;
@@ -67,8 +67,8 @@ namespace Keyboard {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(KeyboardPage));
+            rltv = this.FindByName<global::Xamarin.Forms.AbsoluteLayout>("rltv");
             scroll = this.FindByName<global::Xamarin.Forms.StackLayout>("scroll");
-            giphy = this.FindByName<global::Xamarin.Forms.WebView>("giphy");
             LaBela = this.FindByName<global::Xamarin.Forms.Label>("LaBela");
             LaBela2 = this.FindByName<global::Xamarin.Forms.Label>("LaBela2");
             input_text = this.FindByName<global::Keyboard.ChatTextEntry>("input_text");

@@ -28,6 +28,11 @@ namespace Keyboard.Droid
 			return res.DisplayMetrics.HeightPixels / res.DisplayMetrics.Density;
 		}
 
+		float IUIHelper.ReturnScreenWidth()
+		{
+			return res.DisplayMetrics.WidthPixels / res.DisplayMetrics.Density;
+		}
+
 		async void IUIHelper.metodo(Label lb)
 		{
 			lb.Text = null;
