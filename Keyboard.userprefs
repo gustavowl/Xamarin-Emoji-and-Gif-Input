@@ -2,20 +2,31 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\KeyboardPage.xaml.cs" line="189" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Keyboard\KeyboardPage.xaml">
     <Files>
-      <File FileName="Keyboard\KeyboardPage.xaml" Line="378" Column="59" />
-      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="186" Column="4" />
-      <File FileName="Keyboard\IUIHelper.cs" Line="6" Column="28" />
-      <File FileName="Droid\UIHelper.cs" Line="36" Column="50" />
-      <File FileName="Droid\MainActivity.cs" Line="15" Column="1" />
+      <File FileName="Keyboard\KeyboardPage.xaml" Line="49" Column="59" />
+      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="231" Column="4" />
+      <File FileName="Keyboard\IUIHelper.cs" Line="7" Column="3" />
+      <File FileName="Droid\UIHelper.cs" Line="69" Column="60" />
+      <File FileName="Droid\MainActivity.cs" Line="16" Column="1" />
       <File FileName="Droid\ChatTextEntryRenderer.cs" Line="44" Column="25" />
       <File FileName="Droid\ChatEmojiRenderer.cs" Line="40" Column="25" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Keyboard" expanded="True">
+            <Node name="Keyboard" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="KeyboardPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="Keyboard.Droid" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Keyboard.Droid PreferredExecutionTarget="Android.LGD852581e23b6" />
+  <MonoDevelop.Ide.ItemProperties.Keyboard.Droid PreferredExecutionTarget="Android.Android" />
 </Properties>

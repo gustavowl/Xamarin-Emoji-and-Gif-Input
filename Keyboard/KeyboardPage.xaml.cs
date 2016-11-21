@@ -45,7 +45,7 @@ namespace Keyboard
 			wv1_1.HeightRequest = wv1_0.HeightRequest = wv0_1.HeightRequest = wv0_0.HeightRequest = 200;*/
 
 			//rltv.HeightRequest = 200 * 25;
-			rltv.WidthRequest = hlp.ReturnScreenWidth();
+			//rltv.WidthRequest = hlp.ReturnScreenWidth();
 
 
 			for (int i = 0; i < 25; i++)
@@ -214,6 +214,8 @@ namespace Keyboard
 						string url = sources[i];
 						view.Source = url;
 						view.ClassId = url.Split('/')[4];
+						i++;
+						view.WidthRequest = Convert.ToInt32(sources[i]);
 						i++;
 					}
 					/*

@@ -59,13 +59,14 @@ namespace Keyboard.Droid
 				image = data.Substring(0, data.IndexOf(id_str) + id_str.Length);
 				data = data.Remove(0, data.IndexOf(id_str) + id_str.Length);
 				//detects which dimensions is the largest
-				if (GetDimension(image, true) > GetDimension(image, false))
+				/*if (GetDimension(image, true) > GetDimension(image, false))
 					larger_dim = "height";
 				else
-					larger_dim = "width";
-				image = image.Substring(image.IndexOf("fixed_" + larger_dim + "_downsampled"));
+					larger_dim = "width";*/
+				image = image.Substring(image.IndexOf("fixed_height_downsampled"));
+				int width = GetDimension(image, false);
 				image = image.Substring(image.IndexOf("url\": \"") + 7);
-				lbtext += image.Substring(0, image.IndexOf('\"')) + '\t';
+				lbtext += image.Substring(0, image.IndexOf('\"')) + '\t' + width + '\t';
 				/*
 				if (fio < data.IndexOf("images\": {"))
 				{

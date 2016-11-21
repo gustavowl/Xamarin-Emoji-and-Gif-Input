@@ -17,12 +17,6 @@ namespace Keyboard {
     public partial class KeyboardPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ScrollView abslt_prnt;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.AbsoluteLayout rltv;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.StackLayout scroll;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -33,6 +27,12 @@ namespace Keyboard {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label LaBela2;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ScrollView abslt_prnt;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.AbsoluteLayout rltv;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Keyboard.ChatTextEntry input_text;
@@ -79,12 +79,12 @@ namespace Keyboard {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(KeyboardPage));
-            abslt_prnt = this.FindByName<global::Xamarin.Forms.ScrollView>("abslt_prnt");
-            rltv = this.FindByName<global::Xamarin.Forms.AbsoluteLayout>("rltv");
             scroll = this.FindByName<global::Xamarin.Forms.StackLayout>("scroll");
             bigger_giphy = this.FindByName<global::Xamarin.Forms.WebView>("bigger_giphy");
             LaBela = this.FindByName<global::Xamarin.Forms.Label>("LaBela");
             LaBela2 = this.FindByName<global::Xamarin.Forms.Label>("LaBela2");
+            abslt_prnt = this.FindByName<global::Xamarin.Forms.ScrollView>("abslt_prnt");
+            rltv = this.FindByName<global::Xamarin.Forms.AbsoluteLayout>("rltv");
             input_text = this.FindByName<global::Keyboard.ChatTextEntry>("input_text");
             input_emoji = this.FindByName<global::Keyboard.ChatEmojiEntry>("input_emoji");
             giphy_search = this.FindByName<global::Xamarin.Forms.Entry>("giphy_search");
