@@ -54,12 +54,13 @@ namespace Keyboard
 				var wv = new WebView();
 				wv.AutomationId = "wv" + i / 2 + "_" + i % 2;
 				wv.Source = "https://uwaterloo.ca/events/events/bookstore-concourse-sale-1";
+				wv.Focused += webviewfocused;
 				wv.WidthRequest = 200;
 				wv.HeightRequest = 200;
 
 				Point p = new Point();
-				p.X = 0;
-				p.Y = 200 * i;
+				p.Y = 0;
+				p.X = 200 * i;
 
 				rltv.Children.Add(wv, p);
 				/*
@@ -160,8 +161,38 @@ namespace Keyboard
 
 		void SearchGifs(object sender, EventArgs e)
 		{
-			IUIHelper hlp = DependencyService.Get<IUIHelper>();
-			hlp.metodo(test);
+			
+			if (giphy_search.Text != null)
+			{
+				string search_input = giphy_search.Text.Trim();
+				if (search_input != null)
+				{
+					bigger_giphy.IsVisible = false;
+					rltv.IsVisible = true;
+					abslt_prnt.IsVisible = true;
+					search_input = search_input.Replace(' ', '+');
+					IUIHelper hlp = DependencyService.Get<IUIHelper>();
+					hlp.metodo(search_input, test);
+				}
+			}
+		}
+
+		void ShowOrHideGifSearchTool(object sender, EventArgs e)
+		{
+			giphy_search.IsVisible = !giphy_search.IsVisible;
+			emoji_button.IsVisible = !emoji_button.IsVisible;
+			search_button.IsVisible = !search_button.IsVisible;
+			if (giphy_search.IsVisible)
+			{
+				emoji_table.IsVisible = false;
+				input_emoji.IsVisible = false;
+				input_text.IsVisible = false;
+				giphy_search.Focus();
+			}
+			else {
+				input_text.IsVisible = true;
+				input_text.Focus();
+			}
 		}
 
 		void teste_prop_changed(object sender, System.ComponentModel.PropertyChangedEventArgs e)
@@ -180,7 +211,9 @@ namespace Keyboard
 					int i = 0;
 					foreach (WebView view in rltv.Children)
 					{
-						view.Source = sources[i];
+						string url = sources[i];
+						view.Source = url;
+						view.ClassId = url.Split('/')[4];
 						i++;
 					}
 					/*
@@ -194,7 +227,14 @@ namespace Keyboard
 
 		void webviewfocused(object sender, EventArgs e)
 		{
-			input_text.Text += "_fcs";
+			WebView wb = (WebView)sender;
+			rltv.IsVisible = false;
+			abslt_prnt.IsVisible = false;
+			bigger_giphy.IsVisible = true;
+			bigger_giphy.WidthRequest = 500;
+			bigger_giphy.HeightRequest = 500;
+			bigger_giphy.Source = "http://media2.giphy.com/media/" + wb.ClassId + "/giphy.gif";
+			//var split = id.Split('/');
 			//giphy.Unfocus();
 		}
 

@@ -33,13 +33,13 @@ namespace Keyboard.Droid
 			return res.DisplayMetrics.WidthPixels / res.DisplayMetrics.Density;
 		}
 
-		async void IUIHelper.metodo(Label lb)
+		async void IUIHelper.metodo(string search_str, Label lb)
 		{
-			lb.Text = null;
 			// Get the latitude and longitude entered by the user and create a query.
 			/*string url = "http://api.geonames.org/findNearByWeatherJSON?lat=" + 
 				(47.55) + "&lng=" + (-122.31666666666666) + "&username=demo";*/
-			string url = "http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC";
+			//string url = "http://api.giphy.com/v1/gifs/search?q=funny+cat&api_key=dc6zaTOxFJmzC";
+			string url = "http://api.giphy.com/v1/gifs/search?q=" + search_str + "&api_key=dc6zaTOxFJmzC";
 			// Fetch the weather information asynchronously, 
 			// parse the results, then update the screen:
 			JsonValue json = await FetchWeatherAsync(url);

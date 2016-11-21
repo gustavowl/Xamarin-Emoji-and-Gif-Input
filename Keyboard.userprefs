@@ -3,19 +3,19 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\KeyboardPage.xaml.cs" line="57" column="1" />
+      <Breakpoint file="C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\KeyboardPage.xaml.cs" line="189" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Droid\MainActivity.cs">
     <Files>
-      <File FileName="Keyboard\KeyboardPage.xaml" Line="4" Column="15" />
-      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="57" Column="1" />
-      <File FileName="Keyboard\IUIHelper.cs" Line="9" Column="20" />
-      <File FileName="Droid\UIHelper.cs" Line="62" Column="3" />
-      <File FileName="Droid\MainActivity.cs" Line="26" Column="1" />
-      <File FileName="Keyboard\obj\Debug\Keyboard.KeyboardPage.xaml.g.cs" Line="1" Column="1" />
-      <File FileName="Keyboard\App.xaml.cs" Line="12" Column="1" />
+      <File FileName="Keyboard\KeyboardPage.xaml" Line="378" Column="59" />
+      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="186" Column="4" />
+      <File FileName="Keyboard\IUIHelper.cs" Line="6" Column="28" />
+      <File FileName="Droid\UIHelper.cs" Line="36" Column="50" />
+      <File FileName="Droid\MainActivity.cs" Line="15" Column="1" />
+      <File FileName="Droid\ChatTextEntryRenderer.cs" Line="44" Column="25" />
+      <File FileName="Droid\ChatEmojiRenderer.cs" Line="40" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Keyboard.Droid PreferredExecutionTarget="Android.Android" />
+  <MonoDevelop.Ide.ItemProperties.Keyboard.Droid PreferredExecutionTarget="Android.LGD852581e23b6" />
 </Properties>

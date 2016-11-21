@@ -16,5 +16,3 @@ C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll.m
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.dll.mdb
-C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll.mdb
-C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.dll.mdb
