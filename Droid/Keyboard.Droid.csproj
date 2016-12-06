@@ -93,11 +93,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="CustomFontLabelRenderer.cs" />
-    <Compile Include="ChatTextEntryRenderer.cs" />
     <Compile Include="UIHelper.cs" />
-    <Compile Include="ChatEmojiRenderer.cs" />
-    <Compile Include="EmojiButtonRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

@@ -23,22 +23,16 @@ namespace Keyboard {
         private global::Xamarin.Forms.WebView bigger_giphy;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label LaBela;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label LaBela2;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ScrollView abslt_prnt;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.AbsoluteLayout rltv;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Keyboard.ChatTextEntry input_text;
+        private global::Xamarin.Forms.Entry input_text;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Keyboard.ChatEmojiEntry input_emoji;
+        private global::Xamarin.Forms.Entry input_emoji;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry giphy_search;
@@ -56,24 +50,6 @@ namespace Keyboard {
         private global::Xamarin.Forms.StackLayout emoji_table;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button emoj_categ1;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button emoj_categ2;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ScrollView ScrollEmCat1;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Grid EmCat1;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ScrollView ScrollEmCat2;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Grid EmCat2;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label test;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -81,23 +57,15 @@ namespace Keyboard {
             this.LoadFromXaml(typeof(KeyboardPage));
             scroll = this.FindByName<global::Xamarin.Forms.StackLayout>("scroll");
             bigger_giphy = this.FindByName<global::Xamarin.Forms.WebView>("bigger_giphy");
-            LaBela = this.FindByName<global::Xamarin.Forms.Label>("LaBela");
-            LaBela2 = this.FindByName<global::Xamarin.Forms.Label>("LaBela2");
             abslt_prnt = this.FindByName<global::Xamarin.Forms.ScrollView>("abslt_prnt");
             rltv = this.FindByName<global::Xamarin.Forms.AbsoluteLayout>("rltv");
-            input_text = this.FindByName<global::Keyboard.ChatTextEntry>("input_text");
-            input_emoji = this.FindByName<global::Keyboard.ChatEmojiEntry>("input_emoji");
+            input_text = this.FindByName<global::Xamarin.Forms.Entry>("input_text");
+            input_emoji = this.FindByName<global::Xamarin.Forms.Entry>("input_emoji");
             giphy_search = this.FindByName<global::Xamarin.Forms.Entry>("giphy_search");
             emoji_button = this.FindByName<global::Xamarin.Forms.Button>("emoji_button");
             search_button = this.FindByName<global::Xamarin.Forms.Button>("search_button");
             gif_button = this.FindByName<global::Xamarin.Forms.Button>("gif_button");
             emoji_table = this.FindByName<global::Xamarin.Forms.StackLayout>("emoji_table");
-            emoj_categ1 = this.FindByName<global::Xamarin.Forms.Button>("emoj_categ1");
-            emoj_categ2 = this.FindByName<global::Xamarin.Forms.Button>("emoj_categ2");
-            ScrollEmCat1 = this.FindByName<global::Xamarin.Forms.ScrollView>("ScrollEmCat1");
-            EmCat1 = this.FindByName<global::Xamarin.Forms.Grid>("EmCat1");
-            ScrollEmCat2 = this.FindByName<global::Xamarin.Forms.ScrollView>("ScrollEmCat2");
-            EmCat2 = this.FindByName<global::Xamarin.Forms.Grid>("EmCat2");
             test = this.FindByName<global::Xamarin.Forms.Label>("test");
         }
     }

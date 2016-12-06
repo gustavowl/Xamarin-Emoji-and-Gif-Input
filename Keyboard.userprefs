@@ -4,15 +4,12 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid\UIHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Keyboard\KeyboardPage.xaml">
     <Files>
-      <File FileName="Keyboard\KeyboardPage.xaml" Line="192" Column="31" />
-      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="231" Column="4" />
-      <File FileName="Keyboard\IUIHelper.cs" Line="7" Column="3" />
-      <File FileName="Droid\UIHelper.cs" Line="48" Column="49" />
+      <File FileName="Keyboard\KeyboardPage.xaml" Line="51" Column="4" />
+      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="11" Column="24" />
+      <File FileName="Keyboard\IUIHelper.cs" Line="12" Column="2" />
       <File FileName="Droid\MainActivity.cs" Line="16" Column="1" />
-      <File FileName="Droid\ChatTextEntryRenderer.cs" Line="44" Column="25" />
-      <File FileName="Droid\ChatEmojiRenderer.cs" Line="40" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Keyboard.Droid PreferredExecutionTarget="Android.Android" />
