@@ -40,40 +40,6 @@ namespace Keyboard
 				ec.Text = "" + hex1 + hex2;
 				hex2++;
 			}
-
-			/*wv1_1.WidthRequest = wv1_0.WidthRequest = wv0_1.WidthRequest = wv0_0.WidthRequest = 200;
-			wv1_1.HeightRequest = wv1_0.HeightRequest = wv0_1.HeightRequest = wv0_0.HeightRequest = 200;*/
-
-			//rltv.HeightRequest = 200 * 25;
-			//rltv.WidthRequest = hlp.ReturnScreenWidth();
-
-
-			for (int i = 0; i < 25; i++)
-			{
-
-				var wv = new WebView();
-				wv.AutomationId = "wv" + i / 2 + "_" + i % 2;
-				wv.Source = "https://uwaterloo.ca/events/events/bookstore-concourse-sale-1";
-				wv.Focused += webviewfocused;
-				wv.WidthRequest = 200;
-				wv.HeightRequest = 200;
-
-				Point p = new Point();
-				p.Y = 0;
-				p.X = 200 * i;
-
-				rltv.Children.Add(wv, p);
-				/*
-				rltv.Children.Add(wv, Constraint.RelativeToParent((parent) =>
-				{
-					return (.5 * parent.Width) - 100;
-				}),
-				Constraint.RelativeToParent((parent) =>
-				{
-					return (.5 * parent.Height) - 100 + 200 * i;
-				}),
-                Constraint.Constant(50), Constraint.Constant(50));*/
-			}
 		}
 
 		void Input_TextChanged(object sender, TextChangedEventArgs e)
@@ -157,87 +123,6 @@ namespace Keyboard
 				input_emoji.Text += "" + inpt[0] + "" + inpt[1];
 			input_emoji.CursorFocus = true;
 			input_emoji.FocusOnPosition = prev_focus + 2;
-		}
-
-		void SearchGifs(object sender, EventArgs e)
-		{
-			
-			if (giphy_search.Text != null)
-			{
-				string search_input = giphy_search.Text.Trim();
-				if (search_input != null)
-				{
-					bigger_giphy.IsVisible = false;
-					rltv.IsVisible = true;
-					abslt_prnt.IsVisible = true;
-					search_input = search_input.Replace(' ', '+');
-					IUIHelper hlp = DependencyService.Get<IUIHelper>();
-					hlp.metodo(search_input, test);
-				}
-			}
-		}
-
-		void ShowOrHideGifSearchTool(object sender, EventArgs e)
-		{
-			giphy_search.IsVisible = !giphy_search.IsVisible;
-			emoji_button.IsVisible = !emoji_button.IsVisible;
-			search_button.IsVisible = !search_button.IsVisible;
-			if (giphy_search.IsVisible)
-			{
-				emoji_table.IsVisible = false;
-				input_emoji.IsVisible = false;
-				input_text.IsVisible = false;
-				giphy_search.Focus();
-			}
-			else {
-				input_text.IsVisible = true;
-				input_text.Focus();
-			}
-		}
-
-		void teste_prop_changed(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-		{
-			if (e.PropertyName == "Text")
-			{
-				Label lb = (Label)sender;
-				if (lb.Text != null && lb.Text.Contains("/"))
-				{
-					if (lb.BackgroundColor == Color.Green)
-						lb.BackgroundColor = Color.Yellow;
-					else
-						lb.BackgroundColor = Color.Green;
-					string[] sources = lb.Text.Split('\t');
-
-					int i = 0;
-					foreach (WebView view in rltv.Children)
-					{
-						string url = sources[i];
-						view.Source = url;
-						view.ClassId = url.Split('/')[4];
-						i++;
-						view.WidthRequest = Convert.ToInt32(sources[i]);
-						i++;
-					}
-					/*
-					giphy.WidthRequest = 200;
-					giphy.HeightRequest = 200;
-					giphy.Source = sources[r.Next(0, sources.Length)];*/
-				}
-
-			}
-		}
-
-		void webviewfocused(object sender, EventArgs e)
-		{
-			WebView wb = (WebView)sender;
-			rltv.IsVisible = false;
-			abslt_prnt.IsVisible = false;
-			bigger_giphy.IsVisible = true;
-			bigger_giphy.WidthRequest = 500;
-			bigger_giphy.HeightRequest = 500;
-			bigger_giphy.Source = "http://media2.giphy.com/media/" + wb.ClassId + "/giphy.gif";
-			//var split = id.Split('/');
-			//giphy.Unfocus();
 		}
 
 	}

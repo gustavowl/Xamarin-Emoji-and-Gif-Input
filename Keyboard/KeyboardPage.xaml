@@ -46,15 +46,6 @@
 			</StackLayout>
 		</ScrollView>
 
-		<ScrollView x:Name="abslt_prnt" Orientation="Horizontal">
-			<AbsoluteLayout x:Name="rltv">
-				<!--
-				<WebView x:Name="wv0_0" BackgroundColor="Red" Focused="webviewfocused" Source="https://uwaterloo.ca/events/events/bookstore-concourse-sale-1" />
-				<WebView x:Name="wv0_1" BackgroundColor="Red" Focused="webviewfocused" Source="https://uwaterloo.ca/events/events/bookstore-concourse-sale-1" />
-				<WebView x:Name="wv1_0" BackgroundColor="Red" Focused="webviewfocused" Source="https://uwaterloo.ca/events/events/bookstore-concourse-sale-1" />
-				<WebView x:Name="wv1_1" BackgroundColor="Red" Focused="webviewfocused" Source="https://uwaterloo.ca/events/events/bookstore-concourse-sale-1" /> -->
-			</AbsoluteLayout>
-		</ScrollView>
 		<Grid>
 			<Grid.RowDefinitions>
 				<RowDefinition Height="auto" />
@@ -72,11 +63,6 @@
 
 			<Button Text="TT" Grid.Row="0" Grid.Column="1" x:Name="emoji_button"
 				Clicked="ShowEmojisTable" />
-			<Button Text="Search" Grid.Row="0" Grid.Column="1" x:Name="search_button" Clicked="SearchGifs"
-				IsVisible="false"/>
-
-			
-			<Button Text="Gif" Grid.Row="0" Grid.Column="2" x:Name="gif_button" Clicked="ShowOrHideGifSearchTool"/>
 		</Grid>
 		<StackLayout IsVisible="false" x:Name="emoji_table">
 			<ScrollView Orientation="Horizontal" >
@@ -379,7 +365,6 @@
 				</Grid>
 			</ScrollView>
 		</StackLayout>
-		<Label x:Name="test" PropertyChanged="teste_prop_changed" Text="Im here" IsVisible="false" />
 
 	</StackLayout>
 </ContentPage>

@@ -14,19 +14,6 @@
       <File FileName="Droid\ChatTextEntryRenderer.cs" Line="44" Column="25" />
       <File FileName="Droid\ChatEmojiRenderer.cs" Line="40" Column="25" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Keyboard" expanded="True">
-            <Node name="Keyboard" expanded="True">
-              <Node name="App.xaml" expanded="True" />
-              <Node name="KeyboardPage.xaml" expanded="True" selected="True" />
-            </Node>
-            <Node name="Keyboard.Droid" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Keyboard.Droid PreferredExecutionTarget="Android.Android" />
 </Properties>

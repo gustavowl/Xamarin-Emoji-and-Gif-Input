@@ -7,6 +7,5 @@ namespace Keyboard
 	{
 		float ReturnScreenHeight();
 		float ReturnScreenWidth();
-		void metodo(string search_str, Label ent);
 	}
 }
