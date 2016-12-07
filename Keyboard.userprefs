@@ -6,10 +6,10 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Keyboard\KeyboardPage.xaml">
     <Files>
-      <File FileName="Keyboard\KeyboardPage.xaml" Line="49" Column="59" />
-      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="231" Column="4" />
+      <File FileName="Keyboard\KeyboardPage.xaml" Line="49" Column="9" />
+      <File FileName="Keyboard\KeyboardPage.xaml.cs" Line="130" Column="1" />
       <File FileName="Keyboard\IUIHelper.cs" Line="7" Column="3" />
-      <File FileName="Droid\UIHelper.cs" Line="69" Column="60" />
+      <File FileName="Droid\UIHelper.cs" Line="37" Column="1" />
       <File FileName="Droid\MainActivity.cs" Line="16" Column="1" />
       <File FileName="Droid\ChatTextEntryRenderer.cs" Line="44" Column="25" />
       <File FileName="Droid\ChatEmojiRenderer.cs" Line="40" Column="25" />

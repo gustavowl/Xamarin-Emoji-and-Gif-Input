@@ -96,7 +96,7 @@
 						<ColumnDefinition Width="*" />
 						<ColumnDefinition Width="*" />
 					</Grid.ColumnDefinitions>
-					<!--
+
 					<Button Grid.Row="0" Grid.Column="0" /> <Button Grid.Row="0" Grid.Column="1" />
 					<Button Grid.Row="0" Grid.Column="2" /> <Button Grid.Row="0" Grid.Column="3" />
 					<Button Grid.Row="0" Grid.Column="4" /> <Button Grid.Row="0" Grid.Column="5" />
@@ -156,7 +156,7 @@
 					<Button Grid.Row="11" Grid.Column="2" /> <Button Grid.Row="11" Grid.Column="3" />
 					<Button Grid.Row="11" Grid.Column="4" /> <Button Grid.Row="11" Grid.Column="5" />
 					<Button Grid.Row="11" Grid.Column="6" />
-					-->
+
 				</Grid>
 			</ScrollView>
 			<ScrollView x:Name="ScrollEmCat2" IsVisible="false"> 
@@ -176,7 +176,7 @@
 						<ColumnDefinition Width="*" />
 						<ColumnDefinition Width="*" />
 					</Grid.ColumnDefinitions>
-					<!--
+
 					<Button Grid.Row="0" Grid.Column="0" /> <Button Grid.Row="0" Grid.Column="1" />
 					<Button Grid.Row="0" Grid.Column="2" /> <Button Grid.Row="0" Grid.Column="3" />
 					<Button Grid.Row="0" Grid.Column="4" /> <Button Grid.Row="0" Grid.Column="5" />
@@ -237,7 +237,7 @@
 					<Button Grid.Row="11" Grid.Column="4" /> <Button Grid.Row="11" Grid.Column="5" />
 					<Button Grid.Row="11" Grid.Column="6" />
 
-
+					<!--
 					<Button Grid.Row="12" Grid.Column="0" /> <Button Grid.Row="12" Grid.Column="1" />
 					<Button Grid.Row="12" Grid.Column="2" /> <Button Grid.Row="12" Grid.Column="3" />
 					<Button Grid.Row="12" Grid.Column="4" /> <Button Grid.Row="12" Grid.Column="5" />
