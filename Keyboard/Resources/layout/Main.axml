@@ -3,251 +3,162 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <ScrollView
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_weight="9">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <android.webkit.WebView
+                    android:id="@+id/bigger_giphy"
+                    android:visibility="invisible"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/LaBela"
+                    android:text="I should be empty"
+                    android:textSize="72sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/LaBela2"
+                    android:text="I should be empty"
+                    android:textSize="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            <!--
+				<Label x:Name="LaBela" Text="I should be empty" FontSize="72" MinimumHeightRequest="90" HeightRequest="90"
+						 VerticalTextAlignment="Center" >
+				    <Label.FontFamily>
+				        <OnPlatform x:TypeArguments="x:String">
+				            <OnPlatform.iOS></OnPlatform.iOS>
+				            <OnPlatform.Android>emojione-android</OnPlatform.Android>
+				            <OnPlatform.WinPhone></OnPlatform.WinPhone>
+				        </OnPlatform>
+				    </Label.FontFamily>
+				</Label>
+				<Label x:Name="LaBela2" Text="I should be empty" FontSize="40">
+				    <Label.FontFamily>
+				        <OnPlatform x:TypeArguments="x:String">
+				            <OnPlatform.iOS></OnPlatform.iOS>
+				            <OnPlatform.Android>Lobster-Regular</OnPlatform.Android>
+				            <OnPlatform.WinPhone></OnPlatform.WinPhone>
+				        </OnPlatform>
+				    </Label.FontFamily>
+				</Label> -->
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="LOTS" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="OF" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="RANDOM" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="TEXT" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="TO" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="FILL" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="SPAAAAAAAAACE" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="!!!" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="SPACE" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="SPACE" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="I" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="NEED" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="SPAAAAAAAAACE" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="!!!!!!" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="OMG" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="OMG" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="I'M" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="IN" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="SPAAAAAAAAACE" />
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="!!!!!" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/input_row"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout>
-            <android.webkit.WebView
-                android:id="@+id/bigger_giphy"
-                android:visibility="invisible" />
-            <TextView
-                android:id="@+id/LaBela"
-                android:text="I should be empty" />
-        <!--
-			<Label x:Name="LaBela" Text="I should be empty" FontSize="72" MinimumHeightRequest="90" HeightRequest="90"
-					 VerticalTextAlignment="Center" >
-			    <Label.FontFamily>
-			        <OnPlatform x:TypeArguments="x:String">
-			            <OnPlatform.iOS></OnPlatform.iOS>
-			            <OnPlatform.Android>emojione-android</OnPlatform.Android>
-			            <OnPlatform.WinPhone></OnPlatform.WinPhone>
-			        </OnPlatform>
-			    </Label.FontFamily>
-			</Label>
-			<Label x:Name="LaBela2" Text="I should be empty" FontSize="40">
-			    <Label.FontFamily>
-			        <OnPlatform x:TypeArguments="x:String">
-			            <OnPlatform.iOS></OnPlatform.iOS>
-			            <OnPlatform.Android>Lobster-Regular</OnPlatform.Android>
-			            <OnPlatform.WinPhone></OnPlatform.WinPhone>
-			        </OnPlatform>
-			    </Label.FontFamily>
-			</Label>
-			<Label Text="LOTS" />
-			<Label Text="OF" />
-			<Label Text="RANDOM" />
-			<Label Text="TEXT" />
-			<Label Text="TO" />
-			<Label Text="FILL" />
-			<Label Text="SPAAAAAAAAACE" />
-			<Label Text="!!!" />
-			<Label Text="SPACE" />
-			<Label Text="SPACE" />
-			<Label Text="I" />
-			<Label Text="NEED" />
-			<Label Text="SPAAAAAAAAACE" />
-			<Label Text="!!!!!!" />
-			<Label Text="OMG" />
-			<Label Text="OMG" />
-			<Label Text="I'M" />
-			<Label Text="IN" />
-			<Label Text="SPAAAAAAAAACE" />
-			<Label Text="!!!!!" />-->
-        </LinearLayout>
-    </ScrollView>
-<!--
-	<Grid>
-		<Grid.RowDefinitions>
-			<RowDefinition Height="auto" />
-		</Grid.RowDefinitions>
-		<Grid.ColumnDefinitions>
-			<ColumnDefinition Width="*" />
-			<ColumnDefinition Width="auto" />
-			<ColumnDefinition Width="auto" />
-		</Grid.ColumnDefinitions>
-		<local:ChatTextEntry x:Name="input_text" Keyboard="Chat" TextChanged="Input_TextChanged" 
-				Grid.Row="0" Grid.Column="0" FontFamily="emojione" />
-		<local:ChatEmojiEntry x:Name="input_emoji" Keyboard="Chat" TextChanged="Input_TextChanged" 
-			Grid.Row="0" Grid.Column="0" IsVisible="false" FontFamily="emojione" />
-		<Entry x:Name="giphy_search" Grid.Row="0" Grid.Column="0" IsVisible="false" />
-
-		<Button Text="TT" Grid.Row="0" Grid.Column="1" x:Name="emoji_button"
-			Clicked="ShowEmojisTable" />
-	</Grid>
-	<StackLayout IsVisible="false" x:Name="emoji_table">
-		<ScrollView Orientation="Horizontal" >
-			<StackLayout Orientation="Horizontal">
-				<Button Text="L.U." />
-				<Button Text="EC1" x:Name="emoj_categ1" Clicked="ShowEmojiCategory" />
-				<Button Text="EC2" x:Name="emoj_categ2" Clicked="ShowEmojiCategory" />
-				<Button Text="EC3" />
-				<Button Text="EC4" />
-				<Button Text="EC5" />
-				<Button Text="EC6" />
-				<Button Text="EC7" />
-				<Button Text="EC8" />
-				<Button Text="EC9" />
-			</StackLayout>
-		</ScrollView>
-		<ScrollView x:Name="ScrollEmCat1" IsVisible="false">
-			<Grid x:Name="EmCat1">
-				<Grid.RowDefinitions>
-					<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
-					<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
-					<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
-					<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
-				</Grid.RowDefinitions>
-				<Grid.ColumnDefinitions>
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-				</Grid.ColumnDefinitions>
-
-				<Button Grid.Row="0" Grid.Column="0" /> <Button Grid.Row="0" Grid.Column="1" />
-				<Button Grid.Row="0" Grid.Column="2" /> <Button Grid.Row="0" Grid.Column="3" />
-				<Button Grid.Row="0" Grid.Column="4" /> <Button Grid.Row="0" Grid.Column="5" />
-				<Button Grid.Row="0" Grid.Column="6" />
-				
-				<Button Grid.Row="1" Grid.Column="0" /> <Button Grid.Row="1" Grid.Column="1" />
-				<Button Grid.Row="1" Grid.Column="2" /> <Button Grid.Row="1" Grid.Column="3" />
-				<Button Grid.Row="1" Grid.Column="4" /> <Button Grid.Row="1" Grid.Column="5" />
-				<Button Grid.Row="1" Grid.Column="6" />
-
-				<Button Grid.Row="2" Grid.Column="0" /> <Button Grid.Row="2" Grid.Column="1" />
-				<Button Grid.Row="2" Grid.Column="2" /> <Button Grid.Row="2" Grid.Column="3" />
-				<Button Grid.Row="2" Grid.Column="4" /> <Button Grid.Row="2" Grid.Column="5" />
-				<Button Grid.Row="2" Grid.Column="6" />
-
-				<Button Grid.Row="3" Grid.Column="0" /> <Button Grid.Row="3" Grid.Column="1" />
-				<Button Grid.Row="3" Grid.Column="2" /> <Button Grid.Row="3" Grid.Column="3" />
-				<Button Grid.Row="3" Grid.Column="4" /> <Button Grid.Row="3" Grid.Column="5" />
-				<Button Grid.Row="3" Grid.Column="6" />
-
-				<Button Grid.Row="4" Grid.Column="0" /> <Button Grid.Row="4" Grid.Column="1" />
-				<Button Grid.Row="4" Grid.Column="2" /> <Button Grid.Row="4" Grid.Column="3" />
-				<Button Grid.Row="4" Grid.Column="4" /> <Button Grid.Row="4" Grid.Column="5" />
-				<Button Grid.Row="4" Grid.Column="6" />
-
-				<Button Grid.Row="5" Grid.Column="0" /> <Button Grid.Row="5" Grid.Column="1" />
-				<Button Grid.Row="5" Grid.Column="2" /> <Button Grid.Row="5" Grid.Column="3" />
-				<Button Grid.Row="5" Grid.Column="4" /> <Button Grid.Row="5" Grid.Column="5" />
-				<Button Grid.Row="5" Grid.Column="6" />
-
-				<Button Grid.Row="6" Grid.Column="0" /> <Button Grid.Row="6" Grid.Column="1" />
-				<Button Grid.Row="6" Grid.Column="2" /> <Button Grid.Row="6" Grid.Column="3" />
-				<Button Grid.Row="6" Grid.Column="4" /> <Button Grid.Row="6" Grid.Column="5" />
-				<Button Grid.Row="6" Grid.Column="6" />
-
-				<Button Grid.Row="7" Grid.Column="0" /> <Button Grid.Row="7" Grid.Column="1" />
-				<Button Grid.Row="7" Grid.Column="2" /> <Button Grid.Row="7" Grid.Column="3" />
-				<Button Grid.Row="7" Grid.Column="4" /> <Button Grid.Row="7" Grid.Column="5" />
-				<Button Grid.Row="7" Grid.Column="6" />
-
-				<Button Grid.Row="8" Grid.Column="0" /> <Button Grid.Row="8" Grid.Column="1" />
-				<Button Grid.Row="8" Grid.Column="2" /> <Button Grid.Row="8" Grid.Column="3" />
-				<Button Grid.Row="8" Grid.Column="4" /> <Button Grid.Row="8" Grid.Column="5" />
-				<Button Grid.Row="8" Grid.Column="6" />
-
-				<Button Grid.Row="9" Grid.Column="0" /> <Button Grid.Row="9" Grid.Column="1" />
-				<Button Grid.Row="9" Grid.Column="2" /> <Button Grid.Row="9" Grid.Column="3" />
-				<Button Grid.Row="9" Grid.Column="4" /> <Button Grid.Row="9" Grid.Column="5" />
-				<Button Grid.Row="9" Grid.Column="6" />
-
-				<Button Grid.Row="10" Grid.Column="0" /> <Button Grid.Row="10" Grid.Column="1" />
-				<Button Grid.Row="10" Grid.Column="2" /> <Button Grid.Row="10" Grid.Column="3" />
-				<Button Grid.Row="10" Grid.Column="4" /> <Button Grid.Row="10" Grid.Column="5" />
-				<Button Grid.Row="10" Grid.Column="6" />
-
-				<Button Grid.Row="11" Grid.Column="0" /> <Button Grid.Row="11" Grid.Column="1" />
-				<Button Grid.Row="11" Grid.Column="2" /> <Button Grid.Row="11" Grid.Column="3" />
-				<Button Grid.Row="11" Grid.Column="4" /> <Button Grid.Row="11" Grid.Column="5" />
-				<Button Grid.Row="11" Grid.Column="6" />
-
-			</Grid>
-		</ScrollView>
-		<ScrollView x:Name="ScrollEmCat2" IsVisible="false"> 
-			<Grid x:Name="EmCat2">
-				<Grid.RowDefinitions>
-					<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
-					<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
-					<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
-					<RowDefinition Height="*" /> <RowDefinition Height="*" /> <RowDefinition Height="*" />
-				</Grid.RowDefinitions>
-				<Grid.ColumnDefinitions>
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-					<ColumnDefinition Width="*" />
-				</Grid.ColumnDefinitions>
-
-				<Button Grid.Row="0" Grid.Column="0" /> <Button Grid.Row="0" Grid.Column="1" />
-				<Button Grid.Row="0" Grid.Column="2" /> <Button Grid.Row="0" Grid.Column="3" />
-				<Button Grid.Row="0" Grid.Column="4" /> <Button Grid.Row="0" Grid.Column="5" />
-				<Button Grid.Row="0" Grid.Column="6" />
-				
-				<Button Grid.Row="1" Grid.Column="0" /> <Button Grid.Row="1" Grid.Column="1" />
-				<Button Grid.Row="1" Grid.Column="2" /> <Button Grid.Row="1" Grid.Column="3" />
-				<Button Grid.Row="1" Grid.Column="4" /> <Button Grid.Row="1" Grid.Column="5" />
-				<Button Grid.Row="1" Grid.Column="6" />
-
-				<Button Grid.Row="2" Grid.Column="0" /> <Button Grid.Row="2" Grid.Column="1" />
-				<Button Grid.Row="2" Grid.Column="2" /> <Button Grid.Row="2" Grid.Column="3" />
-				<Button Grid.Row="2" Grid.Column="4" /> <Button Grid.Row="2" Grid.Column="5" />
-				<Button Grid.Row="2" Grid.Column="6" />
-
-				<Button Grid.Row="3" Grid.Column="0" /> <Button Grid.Row="3" Grid.Column="1" />
-				<Button Grid.Row="3" Grid.Column="2" /> <Button Grid.Row="3" Grid.Column="3" />
-				<Button Grid.Row="3" Grid.Column="4" /> <Button Grid.Row="3" Grid.Column="5" />
-				<Button Grid.Row="3" Grid.Column="6" />
-
-				<Button Grid.Row="4" Grid.Column="0" /> <Button Grid.Row="4" Grid.Column="1" />
-				<Button Grid.Row="4" Grid.Column="2" /> <Button Grid.Row="4" Grid.Column="3" />
-				<Button Grid.Row="4" Grid.Column="4" /> <Button Grid.Row="4" Grid.Column="5" />
-				<Button Grid.Row="4" Grid.Column="6" />
-
-				<Button Grid.Row="5" Grid.Column="0" /> <Button Grid.Row="5" Grid.Column="1" />
-				<Button Grid.Row="5" Grid.Column="2" /> <Button Grid.Row="5" Grid.Column="3" />
-				<Button Grid.Row="5" Grid.Column="4" /> <Button Grid.Row="5" Grid.Column="5" />
-				<Button Grid.Row="5" Grid.Column="6" />
-
-				<Button Grid.Row="6" Grid.Column="0" /> <Button Grid.Row="6" Grid.Column="1" />
-				<Button Grid.Row="6" Grid.Column="2" /> <Button Grid.Row="6" Grid.Column="3" />
-				<Button Grid.Row="6" Grid.Column="4" /> <Button Grid.Row="6" Grid.Column="5" />
-				<Button Grid.Row="6" Grid.Column="6" />
-
-				<Button Grid.Row="7" Grid.Column="0" /> <Button Grid.Row="7" Grid.Column="1" />
-				<Button Grid.Row="7" Grid.Column="2" /> <Button Grid.Row="7" Grid.Column="3" />
-				<Button Grid.Row="7" Grid.Column="4" /> <Button Grid.Row="7" Grid.Column="5" />
-				<Button Grid.Row="7" Grid.Column="6" />
-
-				<Button Grid.Row="8" Grid.Column="0" /> <Button Grid.Row="8" Grid.Column="1" />
-				<Button Grid.Row="8" Grid.Column="2" /> <Button Grid.Row="8" Grid.Column="3" />
-				<Button Grid.Row="8" Grid.Column="4" /> <Button Grid.Row="8" Grid.Column="5" />
-				<Button Grid.Row="8" Grid.Column="6" />
-
-				<Button Grid.Row="9" Grid.Column="0" /> <Button Grid.Row="9" Grid.Column="1" />
-				<Button Grid.Row="9" Grid.Column="2" /> <Button Grid.Row="9" Grid.Column="3" />
-				<Button Grid.Row="9" Grid.Column="4" /> <Button Grid.Row="9" Grid.Column="5" />
-				<Button Grid.Row="9" Grid.Column="6" />
-
-				<Button Grid.Row="10" Grid.Column="0" /> <Button Grid.Row="10" Grid.Column="1" />
-				<Button Grid.Row="10" Grid.Column="2" /> <Button Grid.Row="10" Grid.Column="3" />
-				<Button Grid.Row="10" Grid.Column="4" /> <Button Grid.Row="10" Grid.Column="5" />
-				<Button Grid.Row="10" Grid.Column="6" />
-
-				<Button Grid.Row="11" Grid.Column="0" /> <Button Grid.Row="11" Grid.Column="1" />
-				<Button Grid.Row="11" Grid.Column="2" /> <Button Grid.Row="11" Grid.Column="3" />
-				<Button Grid.Row="11" Grid.Column="4" /> <Button Grid.Row="11" Grid.Column="5" />
-				<Button Grid.Row="11" Grid.Column="6" />
-
-			</Grid>
-		</ScrollView>
-	</StackLayout>-->
+        android:layout_weight="1">
+    <!-- layout_wodth="0dp" and layout_weight="number". This way the width will be distribuited
+		proportionally accordingly to weight. In this case input_text will occupy the largest space possible -->
+        <EditText
+            android:id="@+id/input_text"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="8" />
+        <Button
+            android:id="@+id/emoji_button"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="TT0"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/teste"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="TT1"
+            android:layout_weight="1" />
+    </LinearLayout>
 </LinearLayout>

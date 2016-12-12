@@ -14,6 +14,7 @@ C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\res\mipmap-mdp
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\res\mipmap-xhdpi\icon.png
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\res\mipmap-xxhdpi\icon.png
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\res\mipmap-xxxhdpi\icon.png
+C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\res\drawable\_1f1e71f1f7.png
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\R.cs.flag
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\uploadflags.txt
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.dll.mdb
@@ -38,5 +39,6 @@ C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\android\assets
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.dll.mdb
