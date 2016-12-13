@@ -140,6 +140,7 @@
         android:orientation="horizontal"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
+        android:minHeight="60dp"
         android:layout_weight="1">
     <!-- layout_wodth="0dp" and layout_weight="number". This way the width will be distribuited
 		proportionally accordingly to weight. In this case input_text will occupy the largest space possible -->
@@ -154,11 +155,17 @@
             android:layout_width="wrap_content"
             android:text="TT0"
             android:layout_weight="1" />
-        <Button
-            android:id="@+id/teste"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="TT1"
-            android:layout_weight="1" />
     </LinearLayout>
+    <GridView
+        android:id="@+id/emoji_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:columnWidth="40dp"
+        android:verticalSpacing="0dp"
+        android:horizontalSpacing="0dp"
+        android:numColumns="auto_fit"
+        android:scrollbars="vertical"
+        android:visibility="invisible" />
 </LinearLayout>

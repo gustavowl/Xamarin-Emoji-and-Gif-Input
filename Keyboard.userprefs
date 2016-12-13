@@ -4,10 +4,11 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Keyboard AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android" />
+  <MonoDevelop.Ide.ItemProperties.Keyboard AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.192.168.131.102:5555" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Keyboard\MainActivity.cs">
     <Files>
-      <File FileName="Keyboard\MainActivity.cs" Line="36" Column="45" />
+      <File FileName="Keyboard\MainActivity.cs" Line="20" Column="3" />
+      <File FileName="Keyboard\EmojiAdapter.cs" Line="44" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,6 +16,7 @@
           <Node name="Keyboard" expanded="True">
             <Node name="Keyboard" expanded="True">
               <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
                 <Node name="layout" expanded="True" />
               </Node>
               <Node name="MainActivity.cs" selected="True" />
