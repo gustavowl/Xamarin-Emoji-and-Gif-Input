@@ -167,11 +167,11 @@ namespace Keyboard
 
 
 			var grid = FindViewById<GridView>(Resource.Id.emoji_gridview);
-			grid.Adapter = new EmojiAdapter(this, data);
+			grid.Adapter = new EmojiAdapter(this, data, txt);
 			//grid.Adapter = new ArrayAdapter(this, Resource.Layout.TextViewItem, data);
-			grid.ItemClick += delegate (object Sender, AdapterView.ItemClickEventArgs args)
-			{
-				txt.Text = "test";
+			grid.ItemClick += (Sender, args) => {
+				var temp = (TextView)args.View;
+				txt.Text = txt.Text.Insert(txt.SelectionStart, temp.Text);
 			};
 
 			grid.Visibility = Android.Views.ViewStates.Visible;

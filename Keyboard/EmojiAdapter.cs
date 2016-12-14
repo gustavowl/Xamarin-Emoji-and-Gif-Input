@@ -16,10 +16,13 @@ namespace Keyboard
 	[Activity(Label = "EmojiAdapter")]
 	public class EmojiAdapter : ArrayAdapter<Emoji>
 	{
+		EditText input;
+
 		OnEmojiClickedListener emojiClickListener;
 
-		public EmojiAdapter(Context context, Emoji[] data) : base(context, Resource.Layout.TextViewItem, data)
+		public EmojiAdapter(Context context, Emoji[] data, EditText txt) : base(context, Resource.Layout.TextViewItem, data)
 		{
+			this.input = txt;
 		}
 
 		public void setEmojiClickListener(OnEmojiClickedListener listener)
@@ -39,10 +42,12 @@ namespace Keyboard
 			}
 
 			Emoji emoji = base.GetItem(position);
+			string emoji_code = emoji.getEmoji();
 			holder = v.Tag as ViewHolder;
-			holder.icon.Text = emoji.getEmoji();
-			//holder.icon.Click += delegate{
-			//	emojiClickListener.onEmojiClicked(emoji);
+			holder.icon.Text = emoji_code;
+			//holder.icon.Click += (IntentSender, e) => {
+			//	//emojiClickListener.onEmojiClicked(emoji);
+			//	input.Text.Insert(input.SelectionStart, emoji_code);
 			//};
 			return v;
 		}
