@@ -7,21 +7,7 @@
   <MonoDevelop.Ide.ItemProperties.Keyboard AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Keyboard\MainActivity.cs">
     <Files>
-      <File FileName="Keyboard\MainActivity.cs" Line="36" Column="45" />
+      <File FileName="Keyboard\MainActivity.cs" Line="143" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="Keyboard" expanded="True">
-            <Node name="Keyboard" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
-              </Node>
-              <Node name="MainActivity.cs" selected="True" />
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
 </Properties>

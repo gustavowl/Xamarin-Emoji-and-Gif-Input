@@ -39,6 +39,5 @@ C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\android\assets
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\android\assets\System.Xml.dll.mdb
-C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.csprojResolveAssemblyReference.cache
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\obj\Debug\Keyboard.dll.mdb
 C:\Users\Gustavo_2\Documents\Projects\Keyboard\Keyboard\bin\Debug\Keyboard.dll.mdb

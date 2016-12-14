@@ -147,7 +147,8 @@
             android:id="@+id/input_text"
             android:layout_height="wrap_content"
             android:layout_width="0dp"
-            android:layout_weight="8" />
+            android:layout_weight="8"
+            android:inputType="textImeMultiLine" />
         <Button
             android:id="@+id/emoji_button"
             android:layout_height="wrap_content"
