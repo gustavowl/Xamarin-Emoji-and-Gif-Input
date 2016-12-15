@@ -46,28 +46,6 @@ namespace Keyboard
 				txt.Text = txt.Text.Insert(txt.SelectionStart, ":flag-br:");
 
 				txt.SetSelection(pos + 9);
-				/*
-				ss = new SpannableString(txt.Text);
-				string[] splitted = txt.Text.Split(':');
-				int index = 0;
-
-				foreach (string str in splitted)
-				{
-					if (str == "flag-br")
-					{
-						ImageSpan spam = new ImageSpan(d, SpanAlign.Baseline);
-						ss.SetSpan(spam, index - 1, index + 8, SpanTypes.InclusiveInclusive);
-					}
-					index += str.Length + 1;
-				}
-				txt.TextFormatted = ss;
-				txt.SetSelection(pos + 10);
-				/*ImageSpan spam = new ImageSpan(d, SpanAlign.Baseline);
-				ImageSpan spam2 = new ImageSpan(d, SpanAlign.Bottom);
-				ss.SetSpan(spam, 0, 9, SpanTypes.InclusiveInclusive);
-				ss.SetSpan(spam2, 9, 18, SpanTypes.InclusiveInclusive);
-				txt.TextFormatted = ss;
-				txt.SetSelection(txt.Text.Length);*/
 
 			};
 
@@ -101,7 +79,6 @@ namespace Keyboard
 							last_not_changed_span = i;
 						}
 						//saves existing spans that changed position
-						//DOES NOT WORK IF A SPAN WAS REMOVED
 						else if( !(e.BeforeCount + e.Start >= ss.GetSpanEnd(old_spans[i]) &&
 						        e.AfterCount + e.Start <= ss.GetSpanStart(old_spans[i]))) {
 							newSpan.SetSpan(old_spans[i], ss.GetSpanStart(old_spans[i]) - prv.Length + txt.Text.Length,
@@ -164,11 +141,10 @@ namespace Keyboard
 			InputMethodManager imm = (InputMethodManager)GetSystemService(Context.InputMethodService);
 			imm.HideSoftInputFromWindow(txt.WindowToken, 0);
 
-
-
 			var grid = FindViewById<GridView>(Resource.Id.emoji_gridview);
 			grid.Adapter = new EmojiAdapter(this, data, txt);
 			//grid.Adapter = new ArrayAdapter(this, Resource.Layout.TextViewItem, data);
+
 			grid.ItemClick += (Sender, args) => {
 				var temp = (TextView)args.View;
 				txt.Text = txt.Text.Insert(txt.SelectionStart, temp.Text);
