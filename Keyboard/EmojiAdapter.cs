@@ -42,7 +42,7 @@ namespace Keyboard
 			}
 
 			Emoji emoji = base.GetItem(position);
-			string emoji_code = emoji.getEmoji();
+			string emoji_code = emoji.getEmojiShortname();
 			holder = v.Tag as ViewHolder;
 			holder.icon.Text = emoji_code;
 			//holder.icon.Click += (IntentSender, e) => {

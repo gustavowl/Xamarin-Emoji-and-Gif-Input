@@ -95,8 +95,13 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
-    <AndroidResource Include="Resources\drawable\_1f1e71f1f7.png" />
     <AndroidResource Include="Resources\layout\TextViewItem.axml" />
+    <AndroidResource Include="Resources\drawable\emojione_1f1e71f1f7.png" />
+    <AndroidResource Include="Resources\drawable\emojione_1f600.png" />
+    <AndroidResource Include="Resources\drawable\emojione_1f601.png" />
+    <AndroidResource Include="Resources\drawable\emojione_1f602.png" />
+    <AndroidResource Include="Resources\drawable\emojione_1f603.png" />
+    <AndroidResource Include="Resources\drawable\emojione_1f923.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
